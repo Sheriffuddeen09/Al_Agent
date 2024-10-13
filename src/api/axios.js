@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 export const Api = axios.create({
-    //baseURL:"http://localhost:3500"
-    baseURL:"https://company-json.onrender.com"
+    baseURL:"http://localhost:3500"
+    //baseURL:"https://company-json.onrender.com"
 })
 
 export const getChoose = async () =>{

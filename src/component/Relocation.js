@@ -14,25 +14,30 @@ function Relocation (){
     },[])
 
     const contentmid = (
-        <div className="block sm:hidden ">
-            <div className="flex flex-row gap-5 text-white mt-10">
-                    <div className=" border">
-                    <img alt="imagepic" src={vehicle} width={110} className="w-72 h-40"/>
+        <div className="block sm:hidden container">
+            <div className="flex flex-row gap-10 text-white mt-10 slider-wrapper">
+                    <div className=" border img" id="slider-1">
+                    <img alt="imagepic" src={vehicle} width={110} className="w-72 h-40  "/>
                     <h1 className="text-sm text-gray-400 mb-2 px-4">JULY 10,2024 </h1>
                     <p className="w-48 px-4" style={{fontSize:"13px"}}>Settling into a new home: Strategies for an effortless movement , hassle free.</p>
                     <p className="text-sm bg-red w-32 text-white px-4 my-2 text-center translate-x-4 p-2">Read More</p>
                     </div>
-                    <div className=" border">
-                    <img alt="imagepic" src={vehicle} width={110} className="w-72 h-40"/>
+                    <div className=" border img" id="slider-2">
+                    <img alt="imagepic" src={vehicle} width={110} className="w-72 h-40 "/>
                     <h1 className="text-sm text-gray-400 mb-2 px-4">JULY 10,2024 </h1>
                     <p className="w-48 px-4" style={{fontSize:"13px"}}>Settling into a new home: Strategies for an effortless movement , hassle free.</p>
                     <p className="text-sm bg-red w-32 text-white px-4 my-2 text-center translate-x-4 p-2">Read More</p>
                     </div>
-                    <div className=" border">
-                    <img alt="imagepic" src={vehicle} width={110} className="w-72 h-40"/>
+                    <div className=" border img" id="slider-3">
+                    <img alt="imagepic" src={vehicle} width={110} className="w-72 h-40 "/>
                     <h1 className="text-sm text-gray-400 mb-2 px-4">JULY 10,2024 </h1>
                     <p className="w-48 px-4" style={{fontSize:"13px"}}>Settling into a new home: Strategies for an effortless movement , hassle free.</p>
                     <p className="text-sm bg-red w-32 text-white px-4 my-2 text-center translate-x-4 p-2">Read More</p>
+                    </div>
+                    <div className="slider-nav">
+                        <a href="#slider-1"></a>
+                        <a href="#slider-2"></a>
+                        <a href="#slider-3"></a>
                     </div>
             </div>
         </div>
