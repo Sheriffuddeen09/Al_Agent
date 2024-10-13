@@ -7,10 +7,10 @@ function Choose (){
     
 
     const content = (
-        <div className="flex flex-row justify-around flex-wrap">
+        <div className="flex flex-row justify-around flex-wrap" data-aos="zoom-out">
             <div>
                     <div>
-                        <div className='inline-flex gap-2'>
+                        <div className='inline-flex gap-2' data-aos="zoom-out" >
                             <img src={customer} alt="logo" width={30} height={30}  className='w-8 h-8 rounded-full'/>
                         <span>
                         <h1 className=" font-bold">Exceptional</h1>
@@ -62,12 +62,12 @@ function Choose (){
 
     return(
         <div className="bg-gradient-to-t from-green-50 to-white p-2">
-                <h1 className="text-3xl font-bold text-gray-600 my-4 text-center">WHY CHOOSE US</h1>
-                <p className=" font-bold text-black my-4 text-center">YOUR PERSONALIZED MOVING SOLUTION</p>
+                <h1 className="text-3xl font-bold text-gray-600 my-4 text-center" data-aos="fade-up">WHY CHOOSE US</h1>
+                <p className=" font-bold text-black my-4 text-center" data-aos="fade-right">YOUR PERSONALIZED MOVING SOLUTION</p>
                 <p style={{fontSize:"9px",
                     width:"370px"
-                }} className=" font-bold mx-auto text-black text-center">Our mission is to provide stress-free, efficient, and courteous moving and cleaning services, ensuring seamless transitions for both residential and commercial clients. Explore our services and see how we can make your next move effortless.</p>
-                <p className="text-sm bg-red w-32 text-white my-4 text-center mx-auto p-2">Learn More</p>
+                }} className=" font-bold mx-auto text-black text-center" data-aos="zoom-out">Our mission is to provide stress-free, efficient, and courteous moving and cleaning services, ensuring seamless transitions for both residential and commercial clients. Explore our services and see how we can make your next move effortless.</p>
+                <p className="text-sm bg-red w-32 text-white my-4 text-center mx-auto p-2" >Learn More</p>
         <div className="shadow-md border border-gray-50 rounded-xl mx-auto my-5 p-2 lg:w-7/12 md:w-11/12 ">
             {content}
         </div>
