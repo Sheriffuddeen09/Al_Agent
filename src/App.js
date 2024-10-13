@@ -1,5 +1,6 @@
 import Choose from "./component/Choose";
 import Clean from "./component/Clean";
+import Footer from "./component/Footer";
 import Greograph from "./component/Greograph";
 import Move from "./component/Move";
 import Quotes from "./component/Quotes";
@@ -20,6 +21,7 @@ function App() {
       <Relocation />
       <Quotes />
       <Clean />
+      <Footer />
     </div>
   );
 }
