@@ -1,0 +1,28 @@
+{
+    "choose":[
+        {
+        "id":1,
+        "title":"Exceptional ",
+        "titles":"Customer Service",
+        "body":"We prioritize customer satisfaction by offering friendly, professional service. Our team is dedicated to making your moving experience as stress-free as possible"
+        },
+        {
+        "id":2,
+        "title":"Competitive",
+        "titles":"Pricing",
+        "body":"We offer competitive rates for our services without compromising on quality. Get a high-value service at a price that fits your budget."
+        },
+        {
+        "id":3, 
+        "title":"GPS",
+        "titles":"Tracking",
+        "body":"We provide real-time tracking of your belongings, giving you peace of mind during the moving process."
+        },
+        {
+        "id":4,
+        "title":"Comprehensive",
+        "titles":"Services",
+        "body":"In addition to moving, we provide cleaning services to ensure your new space is spotless and ready for you to move in"  
+        }
+    ]
+}
