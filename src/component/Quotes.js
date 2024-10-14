@@ -7,7 +7,7 @@ function Quotes(){
         <div className='mx-auto'>
             <div className='bg-black flex flex-row flex-wrap items-center opacity-72 justify-around p-3'>
                 <h1 className='uppercase text-white font-bold' data-aos="fade-right">download the app</h1>
-                <div className='flex flex-wrap sm:flex-nowrap items-center' data-aos="fade-up">
+                <div className='flex flex-nowrap sm:flex-nowrap items-center' data-aos="fade-up">
                     <img src={play} alt='imagepic'  className='h-16'/>
                     <img src={store} alt='imagepic' className='h-16'/>
                 </div>
@@ -23,8 +23,8 @@ function Quotes(){
             </div>
 
             <div  data-aos="fade-up">
-                <div className="inline-flex lg:gap-36 gap-20 items-center md:gap-20 ">
-                <h1 className="icon sm:text-5xl text-3xl  bg-transparent">Free Quote </h1>
+                <div className="inline-flex lg:gap-36 gap-16 items-center md:gap-20 ">
+                <h1 className="icon sm:text-5xl text-2xl  bg-transparent">Free Quote </h1>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-14 mt-2 icon">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                 </svg>

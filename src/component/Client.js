@@ -30,7 +30,7 @@ function Client (){
     )
     const content = (
         <div className=" hidden lg:block" data-aos="zoom-in" >
-        <div className="flex scrollb scroll-p-0 mt-10 scroll-smooth scrollbar scrollbar-thumb-blue-300  scrollbar-thin scrollbar-track-white flex-row w-96 lg:w-full justify-center gap-10 ">
+        <div className="flex scrollb sliders scroll-p-0 mt-10 scroll-smooth scrollbar scrollbar-thumb-blue-300  scrollbar-thin scrollbar-track-white flex-row w-96 lg:w-full justify-center gap-10 ">
             {
                 choose.map((cho) =>(
                     <div className="bg-gray-100 p-4">
@@ -46,8 +46,8 @@ function Client (){
     )
     return(
         <div className="-mt-36">
-            <h1 className="text-4xl mb-3 text-gray-700 text-center font-bold">CLIENTS WE SERVE</h1>
-            <p className="text-center text-black text-3xl">Our services cater to</p>
+            <h1 className="sm:text-4xl text-2xl mb-3 text-gray-700 text-center font-bold">CLIENTS WE SERVE</h1>
+            <p className="text-center text-black text-xl sm:text-3xl">Our services cater to</p>
             {content}
             {contentmid}
         </div>
