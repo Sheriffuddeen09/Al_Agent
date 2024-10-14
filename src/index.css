@@ -150,13 +150,13 @@ main ol:nth-child(4){
  }
 
 .sliders{
-  animation: slider 8s ease-in-out infinite;
+  animation: slider 18s ease-in-out infinite;
 }
  @keyframes slider {
   from{
-   transform: translateX(200px);
+   transform: translateX(100px);
   }
   to{
-   transform: translateX(-400px);
+   transform: translateX(-450px);
   }
  }
