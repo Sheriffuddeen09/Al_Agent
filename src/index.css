@@ -131,16 +131,68 @@
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
 }
-.slider-wrapper .img{
+.image{
   flex: 1 0 80%;
-  translate: 35px;
+  translate: 38px;
+  transition: 1s;
 }
-.slider-nav{
-  display: flex;
-  column-gap: 1rem;
+
+input{
+  display: none;
+}
+.st{
+  width: 20%;
+  transition: 2s;
+}
+.nav-m{
   position: absolute;
-  bottom: 1.25rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
+  width: 800px;
+  margin-top: -40px;
+  justify-content: center;
+  display: flex;
+}
+.m-btn{
+  border:  2px solid #fafafa;
+  width: 5px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  translate: -200px;
+  transform: translateY(350px);
+  cursor: pointer;
+  transition: 1s;
+}
+.m-btn:not(:last-child){
+  margin-right: 30px;
+}
+.m-btn:hover{
+  background-color: #23e3c2;
+}
+#radio1:checked ~.first{
+margin-left: -110%;
+}
+#radio2:checked ~.first{
+margin-left: -140%;
+}
+#radio3:checked ~.first{
+margin-left: -170%;
+}
+.nav-auto{
+  position: absolute;
+  margin-top: 460px;
+  display: flex;
+  justify-content: center;
+}
+.nav-auto .image:not(:last-child){
+  margin-right: 30px;
+  justify-content: center;
+}
+#radio:checked ~ .nav-auto .a-b1{
+  background-color: #23e3c2;
+}
+#radio:checked ~ .nav-auto .a-b2{
+  background-color: #23e3c2;
+}
+#radio:checked ~ .nav-auto .a-b3{
+  background-color: #23e3c2;
 }
