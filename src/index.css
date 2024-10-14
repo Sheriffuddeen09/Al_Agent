@@ -154,7 +154,7 @@ main ol:nth-child(4){
 }
  @keyframes slider {
   from{
-   transform: translateX(50px);
+   transform: translateX(20px);
   }
   to{
    transform: translateX(-550px);
