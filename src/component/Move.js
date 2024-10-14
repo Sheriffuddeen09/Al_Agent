@@ -4,6 +4,8 @@ import 'aos/dist/aos.css'
 import image from '../image/move.png'
 function Move(){
 
+    //use useEffect to give effect to animation(aos) to be effected
+    //Aos is an animation dependency for fade, flip and zoom of content
     useEffect(() =>{
         AOS.init({duration: 2000})
     }, [])

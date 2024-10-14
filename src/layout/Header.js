@@ -5,6 +5,9 @@ import { useState } from 'react'
 
  function Header (){
 
+    //handleBar is a function eventListner for the menuBar responsiveness(click and unClick)  
+    //useLocation is use to location each link with their pathname of signfication 
+
     const [bar, setBar] = useState(false)
     const homepage = useLocation().pathname
 

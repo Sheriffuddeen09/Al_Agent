@@ -1,9 +1,11 @@
 import axios from 'axios'
 
 export const Api = axios.create({
-    //baseURL:"http://localhost:3500"
     baseURL:"https://company-json.onrender.com"
 })
+//use axios to fetch data from backend source
+
+//and await to get the main source from the Api
 
 export const getChoose = async () =>{
     const res = await Api.get('/choose')

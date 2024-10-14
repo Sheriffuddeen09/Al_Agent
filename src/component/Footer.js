@@ -3,6 +3,9 @@ import what from '../image/whatsa.png'
 import faceb from '../image/faceb.png'
 function Footer (){
 
+    //use content1 for Desktop mode
+    //use contents for pad mode
+    //use contentd for mobile mode
     const contentl =(
         <div className='flex flex-row flex-wrap  justify-around'>
         <div className='text-white' style={{fontSize:"11px"}}>

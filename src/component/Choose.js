@@ -4,6 +4,7 @@ import service from '../image/servi.png'
 import compete from '../image/compete.avif'
 function Choose (){
 
+    //use const content to make my code more easy to read
     
 
     const content = (
