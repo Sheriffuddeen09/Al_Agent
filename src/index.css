@@ -13,7 +13,7 @@
   }
  
   [dark-theme="dark"]{
-    --body_backtoggle: #626267;
+    --body_backtoggle: #282c30;
     --body_background: white;
     --body_color: white;
   
@@ -22,7 +22,4 @@
     --iconb:black;
   
   
-  }
-  body{
-    background-color: #282c30;
   }
