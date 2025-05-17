@@ -23,3 +23,23 @@
   
   
   }
+
+  .loading::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px solid rgb(98, 232, 98);
+    border-right-color: #fff;
+    animation: rotate 2s linear infinite;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+    
+  }
